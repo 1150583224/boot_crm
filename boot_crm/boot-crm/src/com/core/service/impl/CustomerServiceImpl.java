@@ -4,12 +4,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import com.common.utils.Page;
 import com.core.dao.CustomerDao;
 import com.core.po.Customer;
 import com.core.service.CustomerService;
-import com.github.pagehelper.PageHelper;
+
 /**
  * 客户管理
  */

@@ -1,6 +1,5 @@
 package com.core.dao;
 import org.apache.ibatis.annotations.Param;
-
 import com.core.po.User;
 /**
  * 用户DAO层接口
